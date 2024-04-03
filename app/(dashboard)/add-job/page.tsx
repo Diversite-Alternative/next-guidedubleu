@@ -4,7 +4,8 @@ import CreateJobForm from '@/components/CreateJobForm';
 function AddJobPage() {
   return (
     <div>
-      <CreateJobForm /> 
+      {/* <CreateJobForm />  */}
+       add job
     </div>
   )
 }
