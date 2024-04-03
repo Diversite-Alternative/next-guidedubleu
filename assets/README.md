@@ -1,5 +1,5 @@
 # Next Jobify
-
+# source code : https://github.com/john-smilga/nextjs-course-openai
 ## Create New Next.js Project
 
 ```sh
@@ -36,6 +36,9 @@ npx shadcn-ui@latest init
 
 ```sh
 npx shadcn-ui@latest add button
+npx shadcn-ui@latest add select
+npx shadcn-ui@latest add toast
+npm i radix-ui
 ```
 
 [Icons](https://lucide.dev/guide/packages/lucide-react)
