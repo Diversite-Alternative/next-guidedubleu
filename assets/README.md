@@ -1212,6 +1212,7 @@ model Job {
 
 ```sh
 npx prisma db push
+npx prisma studio
 ```
 
 ## Challenge - CreateJobAction
