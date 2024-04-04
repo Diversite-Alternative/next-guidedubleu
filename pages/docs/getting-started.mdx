@@ -1,0 +1,47 @@
+# Introduction
+ 
+Welcome to Nextra! This is a basic docs template. You can use it as a starting point for your own project :)
+
+## What is Nextra?
+
+A **simple**, **powerful** and **flexible** site generation framework with everything you love from Next.js.
+
+## Documentation
+
+The documentation is available at [https://nextra.site](https://nextra.site).
+
+
+## Another Page
+
+```js filename="demo.js"  copy 
+// {3} : is use to higligth a given line
+
+let a = 1;
+
+console.log(a);
+```
+
+## Create a component 
+import { useState } from 'react'
+
+
+export const Counter = () => {
+  const [count, setCount] = useState(0);
+  return (
+    <div>
+      <button onClick={() => setCount(count + 1)} className="bg-blue-500">
+         Clicked {count} times
+      </button>
+    </div>
+  );
+};
+
+<Counter />
+
+
+## External Component
+
+import Test from '../../components/test'
+
+<Test />
+
