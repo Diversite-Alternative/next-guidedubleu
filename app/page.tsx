@@ -46,7 +46,7 @@ export default function Home() {
           </Button> */}
           <div className="mt-4 space-y-4">
               <Button asChild className='bg-orange-500 text-white'>
-                <Link href='/add-job'>Get Started</Link>
+                <Link href='/docs'>Commencer Ici </Link>
               </Button>
 
               {/* Ajouter de la marge entre les boutons */}
