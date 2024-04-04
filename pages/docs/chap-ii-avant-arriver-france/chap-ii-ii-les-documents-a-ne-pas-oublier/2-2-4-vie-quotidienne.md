@@ -34,7 +34,7 @@ notables de la société française.
 
 Vous trouverez ci-dessous le calendrier d’usage en France pour l’année 2023-2024. Celui-ci vous permettra d’identifier l’ensemble des jours fériés et des vacances scolaires.
 
-![jours-féries](jours-feries.png)
+<!-- ![jours-féries](jours-feries.png) -->
 
 **Source** : www.vacances-scolaires-education.fr/pdf/jours-feries/2023/calendrier-2023-avec-jours-feries.pdf
 
