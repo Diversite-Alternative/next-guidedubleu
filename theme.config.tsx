@@ -80,7 +80,7 @@ export default {
         if (title === 'About') {
           return <>❓ {title}</>
         }
-        return <>👉 {title}</>
+        return <> {title}</>
       }
     },
 
