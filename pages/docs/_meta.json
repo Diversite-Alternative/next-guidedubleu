@@ -1,8 +1,19 @@
 {
     "getting-started": "Getting Started",
     "api": "API",
+    "accueil": "Accueil",
+    "intro": "Introduction",
     "chap-i-le-guide-du-bleu": "Chapitre I - Le Guide",
-    "chap-ii-avant-arriver-france": "Chapitre II - Les Documents",
+    "chap-ii-avant-arriver-france": "Chapitre II - Avant d'arriver en France",
     "chap-iii-banques": "Chapitre III - Banques",
-    "chap-iv-la-securite-sociale": "Chapitre IV - La Sécu"
+    "chap-iv-la-securite-sociale": "Chapitre IV - La Sécurité Sociale",
+    "chap-v-logement": "Chapitre V - Le Logement",
+    "chap-vi-etudes-superieures": "Chapitre VI - Etudes supérieures",
+    "chap-vii-impots-et-taxes": "Chapitre VII - Impôts et Taxes",
+    "chap-viii-particularité-parcours-pro": "Chapitre VIII - Particularité parcours pro",
+    "chap-viiii-mobilite-intra-communautaire": "Chapitre IX - Mobilité Intra Communautaire",
+    "chap-vx-visa-et-titre-de-sejour": "Chapitre X - Visa et Titre de Séjour",
+    "chap-vxi-le-defendeur-des-droits": "Chapitre XI - Le defendeur des droits",
+    "chap-vxii-association": "Chapitre XII - L'association"
+
 }

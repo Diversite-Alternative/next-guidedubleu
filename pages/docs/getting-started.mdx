@@ -45,3 +45,24 @@ import Test from '../../components/test'
 
 <Test />
 
+
+import Image from 'next/image'
+import team from './team-2014.png'
+ 
+export default function Page() {
+  return (
+    <>
+      <Image
+        src={team}
+        alt="Picture of the author"
+        width={600} automatically provided
+        height={600} automatically provided
+        // blurDataURL="data:..." automatically provided
+        // placeholder="blur" // Optional blur-up while loading
+      /> 
+      
+    </>
+
+  )
+}
+
