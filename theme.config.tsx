@@ -57,7 +57,7 @@ export default {
   },
   docsRepositoryBase: "https://github.com/Diversite-Alternative/next-guidedubleu",
   sidebar: {
-    titleComponent({ title, type }) {
+    titleComponent({ title, type }: { title: string; type: string }) {
       if (type === 'separator') {
         return (
           <div style={{ background: 'cyan', textAlign: 'center' }}>{title}</div>
