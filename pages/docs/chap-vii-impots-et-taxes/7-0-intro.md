@@ -1,9 +1,4 @@
----
-title:  7.0 Imports et Taxes
-metaTitle: 
-metaDescription: 
-sidebar_position: 14
----
+# Introduction
 
 Chaque année, les personnes âgées de plus de 18 ans ayant travaillé l’année précédente doivent remplir une déclaration d’impôt ; et ce, qu’ils soient imposables ou non. Selon la réglementation en vigueur sur le territoire Français, tous les revenus perçus en France et à l’Etranger par un résident de nationalité Française ou étrangère sont en principe soumis à l’Impôt sur le Revenu. Il existe toutefois, d’autres revenus qui ne font pas partie du revenu global imposable à l’IRPP et qui sont imposés selon des modalités particulières : plus-values immobilières, revenus de l'assurance vie, plus-values à long terme, revenus fonciers.
 

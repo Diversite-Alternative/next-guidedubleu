@@ -1,32 +1,18 @@
----
-sidebar_position: 8
----
+# Introduction
 
 
-import Image from 'next/image';
+
+import CustomImage2 from '../../../components/CustomImage2'
+import Image from 'next/image'
 import img from './04-woman_largeheart.png';
 
-export default function Page() {
-  return (
-    <div className="min-h-screen flex justify-center items-center">
-      <div className="max-w-3xl mx-auto px-4">
-        <Image
-          src={img}
-          alt="Picture of the author"
-          width={400}
-          height={400}
-          className="mx-auto"
-        />
 
-        <p className="mt-4">
-          Assurez vos arrières ! La sécurité sociale désigne un ensemble de dispositifs et d’institutions
-          qui ont pour fonction de protéger les individus des conséquences d’événements ou de
-          situations diverses, généralement qualifiés de « risques sociaux ». À ce titre, en vous
-          inscrivant dans un établissement supérieur, vous devez obligatoirement suivant votre
-          situation, vous affilier au régime étudiant de la sécurité sociale ou au régime général de
-          sécurité sociale. Pour ce faire, laissez-vous guider.
-        </p>
-      </div>
-    </div>
-  );
-}
+<CustomImage2 src={img} alt="Banque" width={500} height={500} center={true} />
+
+
+Assurez vos arrières ! La sécurité sociale désigne un ensemble de dispositifs et d’institutions
+qui ont pour fonction de protéger les individus des conséquences d’événements ou de
+situations diverses, généralement qualifiés de « risques sociaux ». À ce titre, en vous
+inscrivant dans un établissement supérieur, vous devez obligatoirement suivant votre
+situation, vous affilier au régime étudiant de la sécurité sociale ou au régime général de
+sécurité sociale. Pour ce faire, laissez-vous guider.

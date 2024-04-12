@@ -1,9 +1,5 @@
----
-title:  7.1 Comment s’effectue la déclaration d’impôt
-metaTitle: 
-metaDescription: 
----
 
+# 7.1 Comment s’effectue la déclaration d’impôt
 
 ## Avant 2019
 
@@ -25,20 +21,33 @@ Néanmoins, une dérogation à cette règle est accordée aux personnes âgées,
 
 Pour déclarer vos revenus en ligne, vous devez vous connecter à votre espace personnel sur le site impots.gouv.fr, avec votre numéro fiscal et votre mot de passe :
 
-![Declaration de revenus](import-gouv.png)
+
+import CustomImage2 from '../../../components/CustomImage2'
+import Image from 'next/image'
+import impots from './import-gouv.png'
+import infos from './infos-perso.png'
+import annexe from './annexes.png'
+import revenus from './revenus.png'
+
+<CustomImage2 src={impots} alt="Déclaration de revenu" width={500} height={500} center={true} />
 
 Ensuite, il faut accéder à son espace pour renseigner ses informations personnelles.
 
-![alt text](infos-perso.png)
+
+<CustomImage2 src={infos} alt="Infos personnels" width={500} height={500} center={true} />
 
 Après avoir accéder à la déclaration en ligne, il faut vérifier les informations déjà préremplies et compléter le formulaire 2042 (Il s’agit de la déclaration principale) avec le complément d’informations ou modifier les informations en cas d’erreurs ;
 
 Les revenus annexes concernent les autres formulaires. Ainsi, pour remplir ces formulaires, il faut sélectionner l’onglet déclarations annexes :
 
-![annexes](annexes.png)
+<CustomImage2 src={annexe} alt="Annexes" width={500} height={500} center={true} />
+
 
 Concernant les déclarations des revenus exceptionnels :
 
-![revenus](revenus.png)
+
+
+<CustomImage2 src={revenus} alt="revenus" width={500} height={500} center={true} />
+
 
 Une fois complétée et envoyée, vous recevrez un accusé de réception de télédéclaration de revenus en PDF (disponible dans la section "Documents" de votre espace particulier sur le site des impôts). Votre déclaration sera mise en ligne au format PDF, consultable à tout moment mais surtout modifiable en ligne avant le délai, si vous constatez un oubli ou une erreur.
