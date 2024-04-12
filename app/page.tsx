@@ -50,11 +50,11 @@ export default function Home() {
               </Button>
 
               {/* Ajouter de la marge entre les boutons */}
-              <div className="mt-8">
+              {/* <div className="mt-8">
                 <Button asChild className='bg-orange-500 text-white'>
                   <Link href='/add-job'>Chat with GDB-GPT</Link>
                 </Button>
-              </div>
+              </div> */}
           </div>
         </div>
 

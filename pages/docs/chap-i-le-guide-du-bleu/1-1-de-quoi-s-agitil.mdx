@@ -5,30 +5,14 @@ metaDescription: Build Manually or Automatically with Webhooks and Triggers
 
 ---
 
-
+import CustomImage from '../../../components/CustomImage'
 import Image from 'next/image'
 import img from './00-college-life-students.jpeg'
  
-export default function Page() {
-  return (
-    <div>
-      <Image
-        src={img}
-        alt="Picture of the author"
-        width={600} automatically provided
-        height={600} automatically provided
-        // blurDataURL="data:..." automatically provided
-        // placeholder="blur" // Optional blur-up while loading
-      />  
 
-      <p>
-      Il s’agit d’un document à destination des étudiants primo-arrivants en France rédigé pour répondre à UN BESOIN D’ENSEMBLE : Comment aborder sereinement les premiers pas dans la société Française 🧐 ?
-      </p>
-      
-    </div> 
+<CustomImage src={img} alt="College Life Students" />
 
-  )
-}
+
 
 
 

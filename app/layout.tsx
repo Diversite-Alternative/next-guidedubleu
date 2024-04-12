@@ -7,8 +7,8 @@ import Providers from "./providers";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: 'Jobify Dev',
-  description: 'Job application tracking system for job hunters',
+  title: 'Le Guide du Bleu',
+  description: "L'application de référence pour les primo-arrivants en France ",
 };
 
 export default function RootLayout({
