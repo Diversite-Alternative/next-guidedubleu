@@ -4,7 +4,7 @@ import { useConfig } from 'nextra-theme-docs'
 export default {
     logo: <span>Le  Guide du Bleu</span>,
     project: {
-      link: 'https://github.com/shuding/nextra'
+      link: 'https://diversitealternative.org/'
     },
     // ... other theme options
     logo: (
@@ -42,10 +42,10 @@ export default {
       return (
         <>
           <meta property="og:url" content={url} />
-          <meta property="og:title" content={frontMatter.title || 'Nextra'} />
+          <meta property="og:title" content={frontMatter.title || 'GDB'} />
           <meta
             property="og:description"
-            content={frontMatter.description || 'The next site builder'}
+            content={frontMatter.description || 'Le guide de référence pour les primo arrivant en France'}
           />
         </>
       )
@@ -53,13 +53,13 @@ export default {
     banner: {
       key: '2.0-release',
       text: (
-        <a href="https://nextra.site" target="_blank">
+        <a href="https://diversitealternative.org/" target="_blank">
           🎉 v4.0 is released. Read more →
         </a>
       )
     },
     chat: {
-      link: 'https://twitter.com/shuding_',
+      link: 'https://diversitealternative.org/',
       icon: (
         <svg width="24" height="24" viewBox="0 0 248 204">
           <path
@@ -69,7 +69,7 @@ export default {
         </svg>
       )
     },
-    docsRepositoryBase: "https://github.com/Chensokheng",
+    docsRepositoryBase: "https://github.com/Diversite-Alternative/next-guidedubleu",
     sidebar: {
       titleComponent({ title, type }) {
         if (type === 'separator') {
@@ -88,7 +88,7 @@ export default {
       text: (
         <span>
           Diversité Alternative {new Date().getFullYear()} ©{' '}
-          <a href="https://nextra.site" target="_blank">
+          <a href="https://diversitealternative.org/" target="_blank">
             GDB
           </a>
           .
