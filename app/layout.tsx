@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "../styles/globals.css";
-import { ClerkProvider } from '@clerk/nextjs'; // Import the ClerkProvider
+// import { ClerkProvider } from '@clerk/nextjs'; // Import the ClerkProvider
 import Providers from "./providers";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -17,7 +17,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <ClerkProvider>
+    // <ClerkProvider>
       <html lang='en' suppressHydrationWarning>
         <body className={inter.className}>
           <Providers >
@@ -25,6 +25,6 @@ export default function RootLayout({
           </Providers>
         </body>
       </html>
-    </ClerkProvider>
+    // </ClerkProvider>
   );
 }

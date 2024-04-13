@@ -6,6 +6,10 @@ import GBDLogo from '../assets/gdb-logo.svg';
 import EffeilTower from '../assets/undraw_eiffel_tower.svg';
 import { Button } from '@/components/ui/button';
 import Link from 'next/link';
+// import HomepageFeatures from '../components/HomepageFeatures';
+
+
+
 export default function Home() {
   return (
     <main>
@@ -33,10 +37,8 @@ export default function Home() {
             bienvenue <span className='text-primary'>en</span> france
           </h1>
           <p className='leading-loose max-w-md mt-4 '>
-            I am baby wayfarers hoodie next level taiyaki brooklyn cliche blue
-            bottle single-origin coffee chia. Aesthetic post-ironic venmo,
-            quinoa lo-fi tote bag adaptogen everyday carry meggings +1 brunch
-            narwhal.
+            Le guide du bleu est une réponse concrète et efficace apportée aux étudiant(e)s étranger(e)
+            souhaitant poursuivre et/ou poursuivant leurs études en France. 
           </p>
           {/* <Button asChild className='mt-4'>
             <Link href='/add-job'>Get Started</Link>
@@ -60,8 +62,33 @@ export default function Home() {
 
         {/* <Image src={LandingImg} alt='landing' className='hidden lg:block ' /> */}
             <Image src={EffeilTower} alt='landing' className='hidden lg:block ' />
- 
+            {/* <div className="lg:w-100">
+              <Image src={EffeilTower} alt='landing' className='lg:block ' />
+            </div> */}
       </section>
+
+      {/* <HomepageFeatures /> */}
+      {/* Section pour les images horizontales */}
+      {/* <section className="max-w-6xl mx-auto px-4 sm:px-8 mt-5">
+        <h2 className="text-2xl font-bold mb-4">Découvrez nos articles</h2>
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-10">
+          <article className="bg-gray-100 rounded-lg p-4">
+            <Image src={EffeilTower} alt="Article 1" width={400} height={200} />
+            <h3 className="text-lg font-semibold mt-2">Titre de l'article 1</h3>
+            <p className="text-gray-600 mt-2">Description de l'article 1</p>
+          </article>
+          <article className="bg-gray-100 rounded-lg p-4">
+            <Image src={EffeilTower} alt="Article 2" width={400} height={200} />
+            <h3 className="text-lg font-semibold mt-2">Titre de l'article 2</h3>
+            <p className="text-gray-600 mt-2">Description de l'article 2</p>
+          </article>
+          <article className="bg-gray-100 rounded-lg p-4">
+            <Image src={EffeilTower} alt="Article 3" width={400} height={200} />
+            <h3 className="text-lg font-semibold mt-2">Titre de l'article 3</h3>
+            <p className="text-gray-600 mt-2">Description de l'article 3</p>
+          </article>
+        </div>
+      </section> */}
     </main>
   );
 }
