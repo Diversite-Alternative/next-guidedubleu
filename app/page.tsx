@@ -37,7 +37,7 @@ export default function Home() {
             bienvenue <span className='text-primary'>en</span> france
           </h1>
           <p className='leading-loose max-w-md mt-4 '>
-            Le guide du bleu est une réponse concrète et efficace apportée aux étudiant(e)s étranger(e)
+            Le guide du bleu est une réponse concrète et efficace apportée aux étudiant(e)s étranger(e)s
             souhaitant poursuivre et/ou poursuivant leurs études en France. 
           </p>
           {/* <Button asChild className='mt-4'>

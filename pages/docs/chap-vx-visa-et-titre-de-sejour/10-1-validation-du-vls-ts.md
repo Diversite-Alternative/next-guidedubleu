@@ -6,11 +6,11 @@ metaDescription:
 
 
 
-:::info
+
 Depuis le 18 février 2019, la validation du visa (VLS-TS) est désormais dématérialisée et se fait entièrement sur la plateforme en ligne du ministère de l’intérieur : 
 
 https://administration-etrangers-en-france.interieur.gouv.fr.
-:::
+
 
 Depuis le 18 février 2019, la validation du visa (VLS-TS) est désormais dématérialisée et se fait entièrement sur la plateforme en ligne du ministère de l’intérieur : https://administration-etrangers-en-france.interieur.gouv.fr.
 
@@ -34,13 +34,12 @@ Ci-dessous les différentes étapes à suivre pour valider son visa :
 
 6. Télécharger la confirmation de validation de votre VLS-TS. 
 
-:::tipFélicitations votre visa est validé !
-:::
+**Félicitations votre visa est validé !**
+
 
 Vous allez recevoir à la suite **02 mails** : 
 - Un premier avec vos identifiants de connexion pour vous permettre d’accéder à votre espace personnel et 
 - Un deuxième mail de confirmation de validation de votre VLS-TS
 
-:::warning
+
 Important : pensez à imprimer et à garder le mail de validation de votre visa dans votre passeport !
-:::

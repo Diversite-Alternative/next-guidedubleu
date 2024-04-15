@@ -1,11 +1,4 @@
----
-sidebar_position: 7
----
-
 # 2.4 Un dernier point...
-
-:::infoQuelques derniers conseil
-:::
 
 • Pensez à avoir un contact (ami, famille, …) fiable qui vous attendra à votre arrivée à l’aéroport. Dans le cas contraire, préparez une feuille de route détaillée (jour et heure de départ, heure locale d’arrivée, votre itinéraire dans Paris, votre itinéraire jusqu’à
 votre ville d’études, votre itinéraire à l’arrivée dans votre ville d’études, etc.
