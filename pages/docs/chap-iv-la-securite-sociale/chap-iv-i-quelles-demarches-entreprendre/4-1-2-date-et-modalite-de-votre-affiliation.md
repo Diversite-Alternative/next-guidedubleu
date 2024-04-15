@@ -1,4 +1,4 @@
-# 4.1.2 Date et modalité de votreb affiliation
+# 4.1.2 Date et modalité de votre affiliation
 
 Vous n’avez pas encore fait connaissance avec l’établissement dans lequel vous étudierez ?
 
