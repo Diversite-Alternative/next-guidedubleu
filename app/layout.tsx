@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import "../styles/globals.css";
 // import { ClerkProvider } from '@clerk/nextjs'; // Import the ClerkProvider
 import Providers from "./providers";
+import { Analytics } from "@vercel/analytics/react"
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -23,6 +24,7 @@ export default function RootLayout({
           <Providers >
             {children}
           </Providers>
+          <Analytics />
         </body>
       </html>
     // </ClerkProvider>
