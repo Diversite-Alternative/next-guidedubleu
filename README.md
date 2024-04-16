@@ -20,17 +20,8 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
+## A propos de l'association
 
-To learn more about Next.js, take a look at the following resources:
+Diversité Alternative est une association à but non lucratif créée en 2013 qui a pour vocation de faciliter l’intégration professionnelle et socio-économique des personnes issues de la diversité dans la société française. L’association est centrée sur la diversité afro-caribéenne et ouverte à tous, sans restriction.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- [Diversité Alternative](https://diversitealternative.org) - en savoir plus sur l'assocoiation
