@@ -1,1 +1,0 @@
-Vous devrez les emmener avec vous par précaution. Ils peuvent vous être demandés à un moment ou à un autre.

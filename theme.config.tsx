@@ -82,5 +82,7 @@ export default {
         .
       </span>
     )
-  }
+  },
+  primaryHue: 23,
+  primarySaturation: 50
 };
