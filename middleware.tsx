@@ -13,10 +13,10 @@
 // };
 
 
-import { NextResponse } from 'next/server';
+import { NextRequest, NextResponse } from 'next/server';
 
 // This function acts as a simple middleware that logs the path of each request
-export default function middleware(req) {
+export default function middleware(req: NextRequest) {
   console.log('Handling request for:', req.nextUrl.pathname);
 
   // Continue processing the request normally after middleware operations
