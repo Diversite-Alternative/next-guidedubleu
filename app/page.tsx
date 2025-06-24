@@ -46,17 +46,13 @@ export default function Home() {
           <Button asChild className='mt-4'>
             <Link href='/add-job'>Chat with GDB-GPT</Link>
           </Button> */}
-          <div className="mt-4 space-y-4">
+          <div className="mt-4 flex flex-wrap gap-4">
               <Button asChild className='bg-orange-500 text-white'>
-                <Link href='/docs/intro'>Commencer Ici </Link>
+                <Link href='/docs/intro'>Commencer Ici</Link>
               </Button>
-
-              {/* Ajouter de la marge entre les boutons */}
-              {/* <div className="mt-8">
-                <Button asChild className='bg-orange-500 text-white'>
-                  <Link href='/add-job'>Chat with GDB-GPT</Link>
-                </Button>
-              </div> */}
+              <Button asChild className='bg-blue-600 text-white'>
+                <Link href='https://chat.guidedubleu.com' target="_blank" rel="noopener noreferrer">Discuter avec GDB</Link>
+              </Button>
           </div>
         </div>
 
